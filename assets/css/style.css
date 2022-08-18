@@ -1,0 +1,77 @@
+body {
+
+    background-color: rgba(0, 139, 139, 0.452);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*corresponde al encabezado de la pagina*/
+.header {
+    height: 2em;
+    padding: 5em;
+    font-size: 2em;
+    background-image: url(https://previews.123rf.com/images/studionimages/studionimages1712/studionimages171200038/91220035-fondo-cl%C3%A1sico-del-brillo-del-arco-iris.jpg);
+    background-size: cover;
+    background-position: center;
+    border-style: dotted;
+    border-color: white;
+    color: black;
+
+}
+
+.header p {
+    border-style: solid;
+    margin-left: 27%;
+    margin-right: 15%
+}
+
+.header h1 {
+    margin: 0px;
+    font-weight: 400;
+    color: darkcyan;
+    margin-left: 27%;
+
+
+}
+
+/*cuerpo de la pagina, lo correspondiente a los productos*/
+.products {
+    width: 80%;
+    margin: auto;
+}
+
+td {
+    width: 50%;
+    padding: 2em;
+    color: white;
+}
+
+img {
+    width: 80%;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 100%;
+    color: white;
+
+
+
+}
+
+table {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+/*footer*/
+.footer {
+    height: 3em;
+    background-color: rgba(5, 48, 88, 0.678);
+    color: rgb(207, 173, 203);
+    text-align: center;
+    font-weight: 900;
+    padding-top: 5%;
+}
+
+a {
+    color: rgb(207, 173, 203);
+}
